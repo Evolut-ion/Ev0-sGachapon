@@ -1,15 +1,15 @@
 {
-    "Group": "Example",
-    "Name": "ExamplePlugin",
-    "Version": "0.0.2",
-    "Description": "An example plugin for HyTale!",
+    "Group": "Ev0sMods",
+    "Name": "Ev0sGachapon",
+    "Version": "0.1.0",
+    "Description": "A HyUI-powered world gachapon machine plugin.",
     "Authors": [
         {
-            "Name": "It's you!"
+            "Name": "OfficialEv0"
         }
     ],
     "Website": "example.org",
-    "ServerVersion": "2026.02.17-255364b8e",
+    "ServerVersion": "*",
     "Dependencies": {
         
     },
@@ -17,6 +17,6 @@
         
     },
     "DisabledByDefault": false,
-    "Main": "org.example.plugin.ExamplePlugin",
+    "Main": "com.example.ev0sgachaponplugin.Ev0sGachaponPlugin",
     "IncludesAssetPack": true
 }

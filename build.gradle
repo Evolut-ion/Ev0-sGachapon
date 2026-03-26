@@ -54,7 +54,7 @@ dependencies {
         runtimeOnly(files("$hytaleHome/install/$patchline/package/game/latest/Server/HytaleServer.jar"))
     }
 
-    // Your dependencies here
+    implementation "curse.maven:hyui-1431415:7731691"
 }
 
 repositories {
@@ -67,6 +67,7 @@ repositories {
         name = "hytale-pre-release"
         url = uri("https://maven.hytale.com/pre-release")
     }
+    maven { url "https://www.cursemaven.com" }
 }
 
 // Updates the manifest.json file with the latest properties defined in the
